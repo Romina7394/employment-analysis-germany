@@ -42,9 +42,7 @@ Die Analyse umfasst:
 
 ## 📈 Dashboard
 
-<p align="center">
-  <img src="dashboard.png" width="700"/>
-</p>
+![Dashboard](images/dashboard.png)
 
 👉 Das Dashboard zeigt:
 
