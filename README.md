@@ -2,62 +2,93 @@
 
 ## 📌 Projektübersicht
 
-In diesem Projekt wird die Beschäftigungsverteilung in deutschen Großstädten analysiert.
-Ziel ist es, Muster zu erkennen, die Konzentration von Beschäftigung zu untersuchen und regionale Unterschiede sichtbar zu machen.
+Dieses Projekt analysiert die Beschäftigungsverteilung in deutschen Großstädten anhand offizieller Daten (Destatis).
+Ziel ist es, Muster der Beschäftigungskonzentration zu identifizieren und regionale Unterschiede sichtbar zu machen.
+
+Der Fokus liegt auf der Kombination von **Datenaufbereitung (SQL & Python)** und **Business-Visualisierung (Power BI)**.
 
 ---
 
-## 🛠️ Verwendete Technologien
+## 🛠️ Technologien
 
-* SQL (Datenbereinigung und Aggregation)
-* Python (Datenverarbeitung mit Pandas)
-* Power BI (Visualisierung und Dashboard)
+* **SQL** – Datenbereinigung und Aggregation
+* **Python (Pandas)** – Datenverarbeitung und Analyse
+* **Power BI** – Dashboard und Visualisierung
 
 ---
 
 ## 📂 Datensatz
 
-* Quelle: Deutsche Beschäftigungsstatistik (Destatis)
-* Enthält:
+Quelle: **Deutsche Beschäftigungsstatistik (Destatis)**
 
-  * Stadt
-  * Gesamtbeschäftigung
-  * Jahr
+Enthaltene Variablen:
+
+* Stadt
+* Gesamtbeschäftigung
+* Jahr
 
 ---
 
-## 🔍 Analyseinhalte
+## 🔍 Analyse
 
-* Top-Städte nach Beschäftigung
-* Anteil der Beschäftigung pro Stadt
-* Kumulative Verteilung (Pareto-Analyse)
+Die Analyse umfasst:
+
+* Ranking der Städte nach Gesamtbeschäftigung
+* Anteil jeder Stadt an der Gesamtbeschäftigung
+* Kumulative Verteilung (**Pareto-Analyse**)
 * Durchschnittliche Beschäftigung pro Stadt
 
 ---
 
 ## 📈 Dashboard
 
-![Dashboard](images/dashboard.png)
+<p align="center">
+  <img src="dashboard.png" width="700"/>
+</p>
+
+👉 Das Dashboard zeigt:
+
+* Top-Städte nach Beschäftigung
+* Prozentuale Verteilung
+* Pareto-Kurve zur Identifikation der wichtigsten Städte
 
 ---
 
-## 💡 Wichtige Erkenntnisse
+## 📊 Key Insights
 
-* Ein kleiner Teil der Städte trägt einen großen Anteil zur Gesamtbeschäftigung bei (Pareto-Prinzip)
-* Städte wie Berlin, Stuttgart und Hamburg dominieren die Beschäftigungsverteilung
-* Die Beschäftigung ist stark in großen urbanen Zentren konzentriert, was auf regionale Ungleichgewichte hinweist
+* Die Beschäftigung ist **stark konzentriert**:
+  Ein kleiner Teil der Städte trägt einen großen Anteil zur Gesamtbeschäftigung bei (Pareto-Prinzip)
+
+* **Top 3 Städte (Berlin, Stuttgart, Hamburg)** machen etwa **~50 % der Gesamtbeschäftigung** aus
+
+* Es bestehen deutliche **regionale Ungleichgewichte**, da Beschäftigung stark in urbanen Zentren gebündelt ist
 
 ---
 
-## 🚀 Ausführung des Projekts
+## 🚀 Ausführung
 
 1. SQL-Skripte zur Datenaufbereitung ausführen
-2. Daten mit Python (analysis.py) verarbeiten
-3. Power BI Dashboard (.pbix) öffnen
+2. Daten mit Python verarbeiten:
+
+```bash
+python analysis.py
+```
+
+3. Power BI Dashboard öffnen:
+
+```text
+dashboard.pbix
+```
 
 ---
 
 ## 👩‍💻 Autorin
 
-Romina Emadi
-Studentin der Data Science | Ziel: Data Analystin
+**Romina Emadi**
+Data Science Studentin | Ziel: Data Analyst
+
+---
+
+## 📜 License
+
+MIT License
